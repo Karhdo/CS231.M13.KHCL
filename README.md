@@ -22,7 +22,9 @@
 * **Giảng viên**: ThS.Lê Minh Hưng
 
 ## QUÁ TRÌNH
-### Week 1
+### Week 1: OpenCV Tutorial and Face Detection
+   1. [OpenCV Tutorial 1](Week_1/opencv_tutorial_01.ipynb) and [OpenCV Tutorial 2](Week_1/opencv_tutorial_02.ipynb) 
+   2. [Face Detection](Week_1/Face_detection.ipynb)
 
 <!-- Footer -->
 `Copyright © 2021 - Đỗ Trọng Khánh`
