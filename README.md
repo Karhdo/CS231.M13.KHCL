@@ -27,4 +27,4 @@
    2. [Face Detection](Week_1/Face_detection.ipynb)
 
 <!-- Footer -->
-                                                                'Copyright © 2021 - Đỗ Trọng Khánh'
+<p align="center">Copyright © 2021 - Đỗ Trọng Khánh</p?
