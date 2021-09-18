@@ -26,5 +26,16 @@
    1. [OpenCV Tutorial 1](Week_1/opencv_tutorial_01.ipynb) and [OpenCV Tutorial 2](Week_1/opencv_tutorial_02.ipynb) 
    2. [Face Detection](Week_1/Face_detection.ipynb)
 
+### Week 2: Computer vision AI
+  - Based on Loos functions:
+    + Classification
+    + Regression
+  - Based on task:
+    + Classification: 0, 1, 2, ...
+    + Localization: only object in the image.
+    + Detection: multiple object in the image.
+    + Segmentation: draw borders (boudaires) around the object.
+    + Identification: face identication.
+  - Assignment: [Harris Corner Detector](Week_2/Harris_Corner_Detector.ipynb).
 <!-- Footer -->
 <p align="center">© Copyright by Đỗ Trọng Khánh</p>
