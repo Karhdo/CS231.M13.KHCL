@@ -37,5 +37,8 @@
     + Segmentation: draw borders (boudaires) around the object.
     + Identification: face identication.
   - Assignment: [Harris Corner Detector](Week_2/Harris_Corner_Detector.ipynb).
+
+### Week 3: Overview about Convolutional neural network (CNN)
+  - Assignment: [Shi-Tomasi Corner Detector](Week_3/Shi-Tomasi_Corner_Detector.ipynb).
 <!-- Footer -->
 <p align="center">© Copyright by Đỗ Trọng Khánh</p>
