@@ -48,6 +48,14 @@
     + Tiếp theo, thực hiện FLATTEN VECTOR cho bức ảnh kết quả từ bước trên sẽ thu được 1 vector ... chiều
     + Sau đó thực hiện FULLY CONNECTED LAYERS (giảm kích thước của vector đến 1 mức tốt nhất)
     + Cuối cùng, phân loại để ra được kết quả mong muốn. Thiết kế các nơ ron ứng với các label, nơ ron nào cho tỉ lệ phần trăm cao hơn thì là kết quả dự đoán (Tổng xác suất của các nơ ron = 1)
-      *
+    <img src = "https://scontent.fdad4-1.fna.fbcdn.net/v/t1.15752-…a&oh=072dfb4300171c08ad7a3167fc6bca40&oe=6178F423">
+  - FULLY CONNECTED là mỗi nơ ron ở mỗi layer kết nối đầy đủ với nơ ron ở layer cạnh nó
+  - Cách tính số lượng trọng số của 1 feature (trọng số là parameter: w) : dài x rộng x depth + bias
+  - Cách thực hiện bài toán CNN:
+	  + Khởi tạo ngẫu nhiên các trọng số cho F(Wi)
+	  + Đưa bức ảnh đầu vào qua F(Wi) sẽ cho ra kết quả dự đoán yi'
+	  + Để đo đạc sự khác nhau giữa yi' với yi(Thực tế) ta dùng hàm Loss (Loss càng nhỏ kết quả càng tốt). Loss = yi' - yi mà yi cố định(hay là label) nên Loss = f'(Wi) hay có thể nói Loss phụ thuộc vào Wi, tăng giảm của Wi sẽ ảnh hưởng đến Loss.
+	  + Cách để tối ưu bài toán là giảm Loss. Tính đạo hàm riêng của Loss với từng Wi, sau đó thực hiện cập nhật lại trọng số Wi bằng công thức 
+
 <!-- Footer -->
 <p align="center">© Copyright by Đỗ Trọng Khánh</p>
