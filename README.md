@@ -39,7 +39,6 @@
   - Assignment: [Harris Corner Detector](Week_2/Harris_Corner_Detector.ipynb).
 
 ### Week 3: Overview about Convolutional neural network (CNN)
-  - Assignment: [Shi-Tomasi Corner Detector](Week_3/Shi_Tomasi_Corner_Detector.ipynb).
   - Khi có ảnh kích thước 7x7(thực tế là 7x7x3) và bộ lọc 3x3 thì kích thước ảnh sau khi sử dụng bộ lọc với stride = 1 là (kích thước ảnh - kích thước bộ lọc)/stride + 1 = 5x5
   - Khi áp bộ lọc vào ảnh, 1 ô tại ảnh output 5x5 được tính nhờ vào phép tích chập (pixel wei multiplication). Ảnh có kích thước 7x7 có các giá trị cố định x1,...,x9 , bộ lọc kích thước 3x3 có các giá trị thay đổi w1,...,w9 . Vậy công thức tính tổng quát cho 1 ô của output 5x5 là: (Tổng wi . xi) + bias (i = (1, 9)) (Phép này còn gọi là convolution)
   - Depth của kernel phải bằng với với depth của ảnh đầu vào
@@ -48,7 +47,7 @@
     + Tiếp theo, thực hiện FLATTEN VECTOR cho bức ảnh kết quả từ bước trên sẽ thu được 1 vector ... chiều
     + Sau đó thực hiện FULLY CONNECTED LAYERS (giảm kích thước của vector đến 1 mức tốt nhất)
     + Cuối cùng, phân loại để ra được kết quả mong muốn. Thiết kế các nơ ron ứng với các label, nơ ron nào cho tỉ lệ phần trăm cao hơn thì là kết quả dự đoán (Tổng xác suất của các nơ ron = 1)
-    <img src = "https://scontent.fdad4-1.fna.fbcdn.net/v/t1.15752-…a&oh=072dfb4300171c08ad7a3167fc6bca40&oe=6178F423">
+    **Chèn ảnh**
   - FULLY CONNECTED là mỗi nơ ron ở mỗi layer kết nối đầy đủ với nơ ron ở layer cạnh nó
   - Cách tính số lượng trọng số của 1 feature (trọng số là parameter: w) : dài x rộng x depth + bias
   - Cách thực hiện bài toán CNN:
@@ -56,6 +55,16 @@
 	  + Đưa bức ảnh đầu vào qua F(Wi) sẽ cho ra kết quả dự đoán yi'
 	  + Để đo đạc sự khác nhau giữa yi' với yi(Thực tế) ta dùng hàm Loss (Loss càng nhỏ kết quả càng tốt). Loss = yi' - yi mà yi cố định(hay là label) nên Loss = f'(Wi) hay có thể nói Loss phụ thuộc vào Wi, tăng giảm của Wi sẽ ảnh hưởng đến Loss.
 	  + Cách để tối ưu bài toán là giảm Loss. Tính đạo hàm riêng của Loss với từng Wi, sau đó thực hiện cập nhật lại trọng số Wi bằng công thức 
-
+	**Chèn ảnh**
+  	  + Thực hiện liên tục từ fit forward đến tìm trọng số mới đến khi Loss đạt giá trị tối ưu(có cách dừng)
+	  + Việc load nhiều ảnh một lúc đề thực hiện là bất khả thi, vì vậy ta sẽ có batch để chứa các ảnh, batch có 1 số lượng nhất định. Mỗi lần batch đưa bộ ảnh lên sẽ thực hiện cho ra 1 độ lỗi, sau khi thực hiện hết số lượng ảnh đầu vào ta sẽ tính tổng độ lỗi đó. Ta có 1 lần training sao cho mô hình đi qua hết các dữ liệu đầu vào là 1 epoch
+  - Cấu tạo của 1 noron:
+	  + Kết quả từ phép tích chập(Convolution)
+	  + Activation funtion: Hàm lựa chọn các thông tin nào nên được giữ lại và quên đi
+		* Sigmoid
+		* Tank: giống sigmoid nhưng đi từ -1 đến 1
+		* Relu (Các mạng CNN nay sài Relu rất nhiều)
+		* Leaky relu: Giống relu nhưng sử dụng cho trường hợp không bị chết nơ ron
+  - Assignment: [Shi-Tomasi Corner Detector](Week_3/Shi_Tomasi_Corner_Detector.ipynb).
 <!-- Footer -->
 <p align="center">© Copyright by Đỗ Trọng Khánh</p>
