@@ -65,7 +65,7 @@
 	* Tank: giống sigmoid nhưng đi từ -1 đến 1
 	* Relu (Các mạng CNN nay sài Relu rất nhiều)
 	* Leaky relu: Giống relu nhưng sử dụng cho trường hợp không bị chết nơ ron
-    	* <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/d34d1ecd8f8832baea45117cac04b036358715ce/Image/C%E1%BA%A5u_t%E1%BA%A1o_noron.png">
+    + <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/d34d1ecd8f8832baea45117cac04b036358715ce/Image/C%E1%BA%A5u_t%E1%BA%A1o_noron.png">
   - Assignment: [Shi-Tomasi Corner Detector](Week_3/Shi_Tomasi_Corner_Detector.ipynb).
 <!-- Footer -->
 <p align="center">© Copyright by Đỗ Trọng Khánh</p>
