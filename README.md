@@ -40,7 +40,7 @@
 
 ### Week 3: Overview about Convolutional neural network (CNN)
   - Khi có ảnh kích thước 7x7(thực tế là 7x7x3) và bộ lọc 3x3 thì kích thước ảnh sau khi sử dụng bộ lọc với stride = 1 là (kích thước ảnh - kích thước bộ lọc)/stride + 1 = 5x5
-  - Khi áp bộ lọc vào ảnh, 1 ô tại ảnh output 5x5 được tính nhờ vào phép tích chập (pixel wei multiplication). Ảnh có kích thước 7x7 có các giá trị cố định x1,...,x9 , bộ lọc kích thước 3x3 có các giá trị thay đổi w1,...,w9 . Vậy công thức tính tổng quát cho 1 ô của output 5x5 là: (Tổng wi . xi) + bias (i = (1, 9)) (Phép này còn gọi là convolution)
+  - Khi áp bộ lọc vào ảnh, 1 ô tại ảnh output 5x5 được tính nhờ vào phép tích chập (pixel wei multiplication). Ảnh có kích thước 7x7 có các giá trị cố định x1,...,x9 , bộ lọc kích thước 3x3 có các giá trị thay đổi w1,...,w9 . Vậy công thức tính tổng quát cho 1 ô của output 5x5 là: (Tổng $w_i$ . xi) + bias (i = (1, 9)) (Phép này còn gọi là convolution)
   - Depth của kernel phải bằng với với depth của ảnh đầu vào
   - Các bước thực hiện của bài toán CNN
     + Đầu tiên thực hiện áp các bộ lọc tương ứng vào ảnh đầu vào, quá trình này gọi là CONVOLUTION LAYERS (+ MAXPOOLING). Kết quả cuối cùng của bước này sẽ cho ra 1 bức ảnh có kích thước nhỏ nhưng depth rất lớn (Ví dụ như trong ảnh)
