@@ -83,7 +83,7 @@
   - Cách đánh giá này đơn giản tính tỉ lệ giữa số `điểm được dự đoán đúng` và `tổng số điểm trong tập dữ liệu kiểm thử`.
 #### 2. Confusion matrix.
   - Các tính **Accuracy** ở trên chỉ cho ta biết được phần trăm lượng dữ liệu được phân loại đúng mà không chỉ ra rõ được lớp nào có độ chính xác cao nhất hay thấp nhất và dữ liệu của lớp nào thường bị phân loại nhầm vào lớp khác.
-  -  Do đó **Confusion matrix** thể hiện có bao nhiêu điểm dữ liệu thực sự thuộc vào một class, và được dự đoán là rơi vào một class.
+  -  Do đó **Confusion matrix** thể hiện có bao nhiêu điểm dữ liệu thực sự thuộc vào một class, và được dự đoán là rơi vào một class.</br>
   <img align='center' height='200' src='https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/e5e953956eff2c196f935a02b2f9f0cf5d2e7a79/Image/Screen%20Shot%202021-10-05%20at%2021.35.23.png'></img>
 #### 3. Precision and Recall.
   - Bài toán phân loại mà tập dữ liệu của các lớp là chênh lệch nhau rất nhiều, có một phép đó hiệu quả thường được sử dụng là Precision-Recall.</br>
