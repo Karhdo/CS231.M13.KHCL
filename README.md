@@ -47,7 +47,7 @@
     + Tiếp theo, thực hiện FLATTEN VECTOR cho bức ảnh kết quả từ bước trên sẽ thu được 1 vector ... chiều
     + Sau đó thực hiện FULLY CONNECTED LAYERS (giảm kích thước của vector đến 1 mức tốt nhất)
     + Cuối cùng, phân loại để ra được kết quả mong muốn. Thiết kế các nơ ron ứng với các label, nơ ron nào cho tỉ lệ phần trăm cao hơn thì là kết quả dự đoán (Tổng xác suất của các nơ ron = 1)
-    + <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/d34d1ecd8f8832baea45117cac04b036358715ce/Image/Quy_tr%C3%ACnh_th%E1%BB%B1c_hi%E1%BB%87n_CNN.png"> 
+    <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/d34d1ecd8f8832baea45117cac04b036358715ce/Image/Quy_tr%C3%ACnh_th%E1%BB%B1c_hi%E1%BB%87n_CNN.png"> 
   - FULLY CONNECTED là mỗi nơ ron ở mỗi layer kết nối đầy đủ với nơ ron ở layer cạnh nó
   - Cách tính số lượng trọng số của 1 feature (trọng số là parameter: w) : dài x rộng x depth + bias
   - Cách thực hiện bài toán CNN:
@@ -55,7 +55,7 @@
     + Đưa bức ảnh đầu vào qua F(Wi) sẽ cho ra kết quả dự đoán yi'
     + Để đo đạc sự khác nhau giữa yi' với yi(Thực tế) ta dùng hàm Loss (Loss càng nhỏ kết quả càng tốt). Loss = yi' - yi mà yi cố định(hay là label) nên Loss = f'(Wi) hay có thể nói Loss phụ thuộc vào Wi, tăng giảm của Wi sẽ ảnh hưởng đến Loss.
     + Cách để tối ưu bài toán là giảm Loss. Tính đạo hàm riêng của Loss với từng Wi, sau đó thực hiện cập nhật lại trọng số Wi bằng công thức 
-    + <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/d34d1ecd8f8832baea45117cac04b036358715ce/Image/C%C3%B4ng_th%E1%BB%A9c_t%C3%ACm_tr%E1%BB%8Dng_s%E1%BB%91_m%E1%BB%9Bi.png">
+    <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/d34d1ecd8f8832baea45117cac04b036358715ce/Image/C%C3%B4ng_th%E1%BB%A9c_t%C3%ACm_tr%E1%BB%8Dng_s%E1%BB%91_m%E1%BB%9Bi.png">
     + Thực hiện liên tục từ fit forward đến tìm trọng số mới đến khi Loss đạt giá trị tối ưu(có cách dừng)
     + Việc load nhiều ảnh một lúc đề thực hiện là bất khả thi, vì vậy ta sẽ có batch để chứa các ảnh, batch có 1 số lượng nhất định. Mỗi lần batch đưa bộ ảnh lên sẽ thực hiện cho ra 1 độ lỗi, sau khi thực hiện hết số lượng ảnh đầu vào ta sẽ tính tổng độ lỗi đó. Ta có 1 lần training sao cho mô hình đi qua hết các dữ liệu đầu vào là 1 epoch
   - Cấu tạo của 1 noron:
@@ -65,7 +65,7 @@
 	* Tank: giống sigmoid nhưng đi từ -1 đến 1
 	* Relu (Các mạng CNN nay sài Relu rất nhiều)
 	* Leaky relu: Giống relu nhưng sử dụng cho trường hợp không bị chết nơ ron
-    + <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/d34d1ecd8f8832baea45117cac04b036358715ce/Image/C%E1%BA%A5u_t%E1%BA%A1o_noron.png">
+    <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/d34d1ecd8f8832baea45117cac04b036358715ce/Image/C%E1%BA%A5u_t%E1%BA%A1o_noron.png">
   - Assignment: [Shi-Tomasi Corner Detector](Week_3/Shi_Tomasi_Corner_Detector.ipynb).
 <!-- Footer -->
 <p align="center">© Copyright by Đỗ Trọng Khánh</p>
