@@ -77,7 +77,7 @@
     <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/8c823df6487937e52dc3869f83529a5879fb7b9d/Image/Alexnet.png">
     + Số lượng trọng số ở FC layer chiếm số lượng rất lớn tổng số lượng trọng số của mô hình mạng (Nhược điểm 1)
     + Dùng kernel size lớn ảnh hưởng đến việc trích xuất đặc trưng (Nhược điểm 2)
-  - Assignment: (Tính trọng số.)[]
+  - Assignment: [Tính trọng số.]()
 ### Week 5: Methods of evaluating a classification model.
 #### 1. Accuracy.
   - Cách đánh giá này đơn giản tính tỉ lệ giữa số `điểm được dự đoán đúng` và `tổng số điểm trong tập dữ liệu kiểm thử`.
