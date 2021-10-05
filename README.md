@@ -47,7 +47,7 @@
     + Tiếp theo, thực hiện FLATTEN VECTOR cho bức ảnh kết quả từ bước trên sẽ thu được 1 vector ... chiều
     + Sau đó thực hiện FULLY CONNECTED LAYERS (giảm kích thước của vector đến 1 mức tốt nhất)
     + Cuối cùng, phân loại để ra được kết quả mong muốn. Thiết kế các nơ ron ứng với các label, nơ ron nào cho tỉ lệ phần trăm cao hơn thì là kết quả dự đoán (Tổng xác suất của các nơ ron = 1)
-    <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/d34d1ecd8f8832baea45117cac04b036358715ce/Image/Quy_tr%C3%ACnh_th%E1%BB%B1c_hi%E1%BB%87n_CNN.png"> 
+    + <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/d34d1ecd8f8832baea45117cac04b036358715ce/Image/Quy_tr%C3%ACnh_th%E1%BB%B1c_hi%E1%BB%87n_CNN.png"> 
   - FULLY CONNECTED là mỗi nơ ron ở mỗi layer kết nối đầy đủ với nơ ron ở layer cạnh nó
   - Cách tính số lượng trọng số của 1 feature (trọng số là parameter: w) : dài x rộng x depth + bias
   - Cách thực hiện bài toán CNN:
@@ -55,7 +55,7 @@
     + Đưa bức ảnh đầu vào qua F(Wi) sẽ cho ra kết quả dự đoán yi'
     + Để đo đạc sự khác nhau giữa yi' với yi(Thực tế) ta dùng hàm Loss (Loss càng nhỏ kết quả càng tốt). Loss = yi' - yi mà yi cố định(hay là label) nên Loss = f'(Wi) hay có thể nói Loss phụ thuộc vào Wi, tăng giảm của Wi sẽ ảnh hưởng đến Loss.
     + Cách để tối ưu bài toán là giảm Loss. Tính đạo hàm riêng của Loss với từng Wi, sau đó thực hiện cập nhật lại trọng số Wi bằng công thức 
-    <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/d34d1ecd8f8832baea45117cac04b036358715ce/Image/C%C3%B4ng_th%E1%BB%A9c_t%C3%ACm_tr%E1%BB%8Dng_s%E1%BB%91_m%E1%BB%9Bi.png">
+    + <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/d34d1ecd8f8832baea45117cac04b036358715ce/Image/C%C3%B4ng_th%E1%BB%A9c_t%C3%ACm_tr%E1%BB%8Dng_s%E1%BB%91_m%E1%BB%9Bi.png">
     + Thực hiện liên tục từ fit forward đến tìm trọng số mới đến khi Loss đạt giá trị tối ưu(có cách dừng)
     + Việc load nhiều ảnh một lúc đề thực hiện là bất khả thi, vì vậy ta sẽ có batch để chứa các ảnh, batch có 1 số lượng nhất định. Mỗi lần batch đưa bộ ảnh lên sẽ thực hiện cho ra 1 độ lỗi, sau khi thực hiện hết số lượng ảnh đầu vào ta sẽ tính tổng độ lỗi đó. Ta có 1 lần training sao cho mô hình đi qua hết các dữ liệu đầu vào là 1 epoch
   - Cấu tạo của 1 noron:
@@ -65,7 +65,7 @@
 	* Tank: giống sigmoid nhưng đi từ -1 đến 1
 	* Relu (Các mạng CNN nay sài Relu rất nhiều)
 	* Leaky relu: Giống relu nhưng sử dụng cho trường hợp không bị chết nơ ron
-    <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/d34d1ecd8f8832baea45117cac04b036358715ce/Image/C%E1%BA%A5u_t%E1%BA%A1o_noron.png">
+  - <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/d34d1ecd8f8832baea45117cac04b036358715ce/Image/C%E1%BA%A5u_t%E1%BA%A1o_noron.png">
   - Assignment: [Shi-Tomasi Corner Detector](Week_3/Shi_Tomasi_Corner_Detector.ipynb).
 ### Week 4: Convolutional neural network (CNN)
   - Padding: Kỹ thuật padding dùng để trích xuất đặc trưng các vùng xung quanh ảnh(vùng rìa) và giữ nguyên kích thước ảnh sau khi qua bộ lọc
@@ -74,18 +74,20 @@
     + Max pooling: sẽ lấy con số lớn nhất trong 1 vùng mà pooling layer áp vào
     + Average pooling: sẽ lấy trung bình cộng trong 1 vùng mà pooling layer áp vào
   - Mô hình mạng Alexnet:
-    <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/8c823df6487937e52dc3869f83529a5879fb7b9d/Image/Alexnet.png">
+    + <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/8c823df6487937e52dc3869f83529a5879fb7b9d/Image/Alexnet.png">
     + Số lượng trọng số ở FC layer chiếm số lượng rất lớn tổng số lượng trọng số của mô hình mạng (Nhược điểm 1)
     + Dùng kernel size lớn ảnh hưởng đến việc trích xuất đặc trưng (Nhược điểm 2)
-  - Assignment: [Tính trọng số.]()
+  - Assignment: [Tính trọng số.](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/e5e953956eff2c196f935a02b2f9f0cf5d2e7a79/Image/Ti%CC%81nh_tro%CC%A3ng_so%CC%82%CC%81.png)
 ### Week 5: Methods of evaluating a classification model.
 #### 1. Accuracy.
   - Cách đánh giá này đơn giản tính tỉ lệ giữa số `điểm được dự đoán đúng` và `tổng số điểm trong tập dữ liệu kiểm thử`.
 #### 2. Confusion matrix.
   - Các tính **Accuracy** ở trên chỉ cho ta biết được phần trăm lượng dữ liệu được phân loại đúng mà không chỉ ra rõ được lớp nào có độ chính xác cao nhất hay thấp nhất và dữ liệu của lớp nào thường bị phân loại nhầm vào lớp khác.
   -  Do đó **Confusion matrix** thể hiện có bao nhiêu điểm dữ liệu thực sự thuộc vào một class, và được dự đoán là rơi vào một class.
+  <img align='center' height='200' src='https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/e5e953956eff2c196f935a02b2f9f0cf5d2e7a79/Image/Screen%20Shot%202021-10-05%20at%2021.35.23.png'></img>
 #### 3. Precision and Recall.
-  - Bài toán phân loại mà tập dữ liệu của các lớp là chênh lệch nhau rất nhiều, có một phép đó hiệu quả thường được sử dụng là Precision-Recall.
+  - Bài toán phân loại mà tập dữ liệu của các lớp là chênh lệch nhau rất nhiều, có một phép đó hiệu quả thường được sử dụng là Precision-Recall.</br>
+  <img align='center' height='400' src='https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/df768e30dbd41d442bc3fea71f624d0a15b2141b/Image/Recall.png'><img>
   - Precision được định nghĩa là tỉ lệ `số điểm Positive mô hình dự đoán đúng` trên `tổng số điểm mô hình dự đoán là Positive` => Precision càng cao, tức là số điểm mô hình dự đoán là positive đều là positive càng nhiều.
   - Recall được định nghĩa là tỉ lệ `số điểm Positive mô hình dự đoán đúng` trên `tổng số điểm thật sự là Positive` (hay tổng số điểm được gán nhãn là Positive ban đầu) => Recall càng cao, tức là số điểm là positive bị bỏ sót càng ít.
 <!-- Footer -->
