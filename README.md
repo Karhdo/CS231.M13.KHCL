@@ -74,7 +74,7 @@
     + Max pooling: sẽ lấy con số lớn nhất trong 1 vùng mà pooling layer áp vào
     + Average pooling: sẽ lấy trung bình cộng trong 1 vùng mà pooling layer áp vào
   - Mô hình mạng Alexnet:
-  - <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/8c823df6487937e52dc3869f83529a5879fb7b9d/Image/Alexnet.png">
+    + <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/8c823df6487937e52dc3869f83529a5879fb7b9d/Image/Alexnet.png">
     + Số lượng trọng số ở FC layer chiếm số lượng rất lớn tổng số lượng trọng số của mô hình mạng (Nhược điểm 1)
     + Dùng kernel size lớn ảnh hưởng đến việc trích xuất đặc trưng (Nhược điểm 2)
   - Assignment:
