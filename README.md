@@ -22,11 +22,11 @@
 * **Giảng viên**: ThS.Lê Minh Hưng
 
 ## QUÁ TRÌNH
-### Week 1: OpenCV Tutorial and Face Detection
+### Week 1: OpenCV Tutorial and Face Detection.
    1. [OpenCV Tutorial 1](Week_1/opencv_tutorial_01.ipynb) and [OpenCV Tutorial 2](Week_1/opencv_tutorial_02.ipynb) 
    2. [Face Detection](Week_1/Face_detection.ipynb)
 
-### Week 2: Computer vision AI
+### Week 2: Computer vision AI.
   - Based on Loos functions:
     + Classification
     + Regression
@@ -38,7 +38,7 @@
     + Identification: face identication.
   - Assignment: [Harris Corner Detector](Week_2/Harris_Corner_Detector.ipynb).
 
-### Week 3: Overview about Convolutional neural network (CNN)
+### Week 3: Overview about Convolutional neural network (CNN).
   - Khi có ảnh kích thước 7x7(thực tế là 7x7x3) và bộ lọc 3x3 thì kích thước ảnh sau khi sử dụng bộ lọc với stride = 1 là (kích thước ảnh - kích thước bộ lọc)/stride + 1 = 5x5
   - Khi áp bộ lọc vào ảnh, 1 ô tại ảnh output 5x5 được tính nhờ vào phép tích chập (pixel wei multiplication). Ảnh có kích thước 7x7 có các giá trị cố định x1,...,x9 , bộ lọc kích thước 3x3 có các giá trị thay đổi w1,...,w9 . Vậy công thức tính tổng quát cho 1 ô của output 5x5 là: (Tổng wi.xi) + bias (i = (1, 9)) (Phép này còn gọi là convolution)
   - Depth của kernel phải bằng với với depth của ảnh đầu vào
@@ -67,7 +67,8 @@
 	* Leaky relu: Giống relu nhưng sử dụng cho trường hợp không bị chết nơ ron
   - <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/d34d1ecd8f8832baea45117cac04b036358715ce/Image/C%E1%BA%A5u_t%E1%BA%A1o_noron.png">
   - Assignment: [Shi-Tomasi Corner Detector](Week_3/Shi_Tomasi_Corner_Detector.ipynb).
-### Week 4: Mô hình mạng Neural Network AlexNet
+
+### Week 4: Mô hình mạng Neural Network AlexNet.
   - Padding: Kỹ thuật padding dùng để trích xuất đặc trưng các vùng xung quanh ảnh(vùng rìa) và giữ nguyên kích thước ảnh sau khi qua bộ lọc
     + Giả sử bộ lọc có kích thước FxF thì vùng padding cần đệm là (F - 1)/2
   - Pooling layer: Làm cho cách biểu diễn của mình nhỏ hơn và dễ quản lý hơn, thực hiện trên mỗi activation map một cách độc lập. Sau khi thực hiện thì đầu ra của depth không đổi, kích thước của chiều dài và rộng sẽ giảm đi 1 nửa(downsampling)
@@ -78,17 +79,9 @@
     + Số lượng trọng số ở FC layer chiếm số lượng rất lớn tổng số lượng trọng số của mô hình mạng (Nhược điểm 1)
     + Dùng kernel size lớn ảnh hưởng đến việc trích xuất đặc trưng (Nhược điểm 2)
   - Assignment: [Tính trọng số.](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/e5e953956eff2c196f935a02b2f9f0cf5d2e7a79/Image/Ti%CC%81nh_tro%CC%A3ng_so%CC%82%CC%81.png)
-### Week 5: Methods of evaluating a classification model.
-#### 1. Accuracy.
-  - Cách đánh giá này đơn giản tính tỉ lệ giữa số `điểm được dự đoán đúng` và `tổng số điểm trong tập dữ liệu kiểm thử`.
-#### 2. Confusion matrix.
-  - Các tính **Accuracy** ở trên chỉ cho ta biết được phần trăm lượng dữ liệu được phân loại đúng mà không chỉ ra rõ được lớp nào có độ chính xác cao nhất hay thấp nhất và dữ liệu của lớp nào thường bị phân loại nhầm vào lớp khác.
-  -  Do đó **Confusion matrix** thể hiện có bao nhiêu điểm dữ liệu thực sự thuộc vào một class, và được dự đoán là rơi vào một class.</br>
-  <img align='center' height='200' src='https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/e5e953956eff2c196f935a02b2f9f0cf5d2e7a79/Image/Screen%20Shot%202021-10-05%20at%2021.35.23.png'></img>
-#### 3. Precision and Recall.
-  - Bài toán phân loại mà tập dữ liệu của các lớp là chênh lệch nhau rất nhiều, có một phép đó hiệu quả thường được sử dụng là Precision-Recall.</br>
-  <img align='center' height='400' src='https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/df768e30dbd41d442bc3fea71f624d0a15b2141b/Image/Recall.png'><img>
-  - Precision được định nghĩa là tỉ lệ `số điểm Positive mô hình dự đoán đúng` trên `tổng số điểm mô hình dự đoán là Positive` => Precision càng cao, tức là số điểm mô hình dự đoán là positive đều là positive càng nhiều.
-  - Recall được định nghĩa là tỉ lệ `số điểm Positive mô hình dự đoán đúng` trên `tổng số điểm thật sự là Positive` (hay tổng số điểm được gán nhãn là Positive ban đầu) => Recall càng cao, tức là số điểm là positive bị bỏ sót càng ít.
+
+### Week 5: Mô hình mạng Neural Network VGGNet.
+
+
 <!-- Footer -->
 <p align="center">© Copyright by Đỗ Trọng Khánh</p>
