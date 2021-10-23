@@ -85,14 +85,17 @@
     + Dùng **kernel size** lớn (11x11) đấn đến số lượng trọng số nhiều và vùng quét thông tin rộng => Không lấy được nhiều thông tin chi tiết.
     + Số lượng trọng số ở lớp **Fully-connected Layer** quá lớn trên tổng số lượng trọng số của mô hình mạng.
   - Do đó  ZFNet ra đời để khắc phục nhược điểm **kernel size** lớn của AlexNet. Còn số lượng trọng số ở lớp **Fully-connected Layer** thì đến GoogleNet mới khắc phục.
-  -  Về cơ bản AlexNet và ZFNet giống nhau về mặt kiến trúc, nó chỉ khác nhau ở kích thước **kernel size** (7x7).
+  -  Về cơ bản AlexNet và ZFNet giống nhau về mặt kiến trúc, nó chỉ khác nhau ở kích thước **kernel size (7x7)**.
 <table>
   <tr> 
     <td><img src='https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/9cb946d910646314c295918068c894436925746d/Image/Cac_mo_hinh_mang.png'></td>
     <td><img src='https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/9cb946d910646314c295918068c894436925746d/Image/VGGNet.png'></td>
   </tr>
 </table>
-
+  - VGG có 2 phiên bản VGG16 (16 layer) và VGG19 (19 layer), sử dụng **filters size 3x3**.
+  - Thay vì sử dụng kernel 7x7 ở mô hình ZFNet, thì ở VGG sử dụng 3 lớp **conv layer 3x3** thì nó có effcitive receptive field so với lớp 7x7. Ngoài ra nó sẽ giúp tăng tính **non-linearities**
+  - Trong VGG ở lớp FC7 featuers thì có tính tổng quát hoá cho nhiều đặc vụ khác (FC7 featuers generalize well to other tasks).
+  - Assignment: [Dùng mô hình để mạng VGG16 để lấy đặc trưng ở lớp FC7 featuers sau đó dùng SVM model để và đánh giá.]()
 
 <!-- Footer -->
 <p align="center">© Copyright by Đỗ Trọng Khánh</p>
