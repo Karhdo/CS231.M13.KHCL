@@ -67,7 +67,7 @@
 	* Leaky relu: Giống relu nhưng sử dụng cho trường hợp không bị chết nơ ron
   - <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/d34d1ecd8f8832baea45117cac04b036358715ce/Image/C%E1%BA%A5u_t%E1%BA%A1o_noron.png">
   - Assignment: [Shi-Tomasi Corner Detector](Week_3/Shi_Tomasi_Corner_Detector.ipynb).
-### Week 4: Convolutional neural network (CNN)
+### Week 4: Mô hình mạng Neural Network AlexNet
   - Padding: Kỹ thuật padding dùng để trích xuất đặc trưng các vùng xung quanh ảnh(vùng rìa) và giữ nguyên kích thước ảnh sau khi qua bộ lọc
     + Giả sử bộ lọc có kích thước FxF thì vùng padding cần đệm là (F - 1)/2
   - Pooling layer: Làm cho cách biểu diễn của mình nhỏ hơn và dễ quản lý hơn, thực hiện trên mỗi activation map một cách độc lập. Sau khi thực hiện thì đầu ra của depth không đổi, kích thước của chiều dài và rộng sẽ giảm đi 1 nửa(downsampling)
