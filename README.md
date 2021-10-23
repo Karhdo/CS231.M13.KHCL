@@ -88,8 +88,8 @@
   -  Về cơ bản AlexNet và ZFNet giống nhau về mặt kiến trúc, nó chỉ khác nhau ở kích thước **kernel size** (7x7).
 <table>
   <tr> 
-    <td><img src=''></td>
-    <td><img src=''></td>
+    <td><img src='https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/9cb946d910646314c295918068c894436925746d/Image/Cac_mo_hinh_mang.png'></td>
+    <td><img src='https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/9cb946d910646314c295918068c894436925746d/Image/VGGNet.png'></td>
   </tr>
 </table>
 
