@@ -86,6 +86,12 @@
     + Số lượng trọng số ở lớp **Fully-connected Layer** quá lớn trên tổng số lượng trọng số của mô hình mạng.
   - Do đó  ZFNet ra đời để khắc phục nhược điểm **kernel size** lớn của AlexNet. Còn số lượng trọng số ở lớp **Fully-connected Layer** thì đến GoogleNet mới khắc phục.
   -  Về cơ bản AlexNet và ZFNet giống nhau về mặt kiến trúc, nó chỉ khác nhau ở kích thước **kernel size** (7x7).
+<table>
+  <tr> 
+    <td><img src=''></td>
+    <td><img src=''></td>
+  </tr>
+</table>
 
 
 <!-- Footer -->
