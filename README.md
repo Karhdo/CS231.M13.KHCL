@@ -101,4 +101,4 @@
   - Assignment: [Dùng mô hình để mạng VGG16 để lấy đặc trưng ở lớp FC7 featuers sau đó dùng SVM model để và đánh giá.]()
 
 <!-- Footer -->
-<p align="center">© Copyright by Đỗ Trọng Khánh</p>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`Copyright © 2021 - Đỗ Trọng Khánh`
