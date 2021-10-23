@@ -92,6 +92,7 @@
     <td><img src='https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/9cb946d910646314c295918068c894436925746d/Image/VGGNet.png'></td>
   </tr>
 </table>
+
   - VGG có 2 phiên bản VGG16 (16 layer) và VGG19 (19 layer), sử dụng **filters size 3x3**.
   - Thay vì sử dụng kernel 7x7 ở mô hình ZFNet, thì ở VGG sử dụng 3 lớp **conv layer 3x3** thì nó có effcitive receptive field so với lớp 7x7. Ngoài ra nó sẽ giúp tăng tính **non-linearities**
   - Trong VGG ở lớp FC7 featuers thì có tính tổng quát hoá cho nhiều đặc vụ khác (FC7 featuers generalize well to other tasks).
