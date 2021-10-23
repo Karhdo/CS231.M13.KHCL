@@ -81,6 +81,11 @@
   - Assignment: [Tính trọng số.](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/e5e953956eff2c196f935a02b2f9f0cf5d2e7a79/Image/Ti%CC%81nh_tro%CC%A3ng_so%CC%82%CC%81.png)
 
 ### Week 5: Mô hình mạng Neural Network VGGNet.
+  - Nhược điểm của mô hình nạng AlexNet:
+    + Dùng **kernel size** lớn (11x11) đấn đến số lượng trọng số nhiều và vùng quét thông tin rộng => Không lấy được nhiều thông tin chi tiết.
+    + Số lượng trọng số ở lớp **Fully-connected Layer** quá lớn trên tổng số lượng trọng số của mô hình mạng.
+  - Do đó  ZFNet ra đời để khắc phục nhược điểm **kernel size** lớn của AlexNet. Còn số lượng trọng số ở lớp **Fully-connected Layer** thì đến GoogleNet mới khắc phục.
+  -  Về cơ bản AlexNet và ZFNet giống nhau về mặt kiến trúc, nó chỉ khác nhau ở kích thước **kernel size** (7x7).
 
 
 <!-- Footer -->
