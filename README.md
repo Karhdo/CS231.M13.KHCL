@@ -99,6 +99,8 @@
   - Thay vì sử dụng kernel 7x7 ở mô hình ZFNet, thì ở VGG sử dụng 3 lớp **conv layer 3x3** thì nó có effcitive receptive field so với lớp 7x7. Ngoài ra nó sẽ giúp tăng tính **non-linearities**
   - Trong VGG ở lớp FC7 featuers thì có tính tổng quát hoá cho nhiều đặc vụ khác (FC7 featuers generalize well to other tasks).
   - Assignment: [Dùng mô hình để mạng VGG16 để lấy đặc trưng ở lớp FC7 featuers sau đó dùng SVM model để và đánh giá.]()
+ 
+ ### Week 6: SIFT trong Open CV (Scale-Invariant Feature Transform).
 
 <!-- Footer -->
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`Copyright © 2021 - Đỗ Trọng Khánh`
