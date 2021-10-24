@@ -102,7 +102,7 @@
  
  ### Week 6: SIFT trong Open CV (Scale-Invariant Feature Transform).
  
- - Assignment: [Classification MNIST.]() and [Classification Animal Faces.]()
+ - Assignment: [Classification MNIST.](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/edf620eaa59576637201e2eb91f73112d5834475/Week_6/Image-Classification-using-SIFT.ipynb) and [Classification Animal Faces.](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/edf620eaa59576637201e2eb91f73112d5834475/Week_6/SIFT_SVM.ipynb)
 
 <!-- Footer -->
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`Copyright © 2021 - Đỗ Trọng Khánh`
