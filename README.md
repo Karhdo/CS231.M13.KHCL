@@ -101,6 +101,8 @@
   - Assignment: [Dùng mô hình để mạng VGG16 để lấy đặc trưng ở lớp FC7 featuers sau đó dùng SVM model để và đánh giá.]()
  
  ### Week 6: SIFT trong Open CV (Scale-Invariant Feature Transform).
+ 
+ - Assignment: [Classification MNIST.]() and [Classification Animal Faces.]()
 
 <!-- Footer -->
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`Copyright © 2021 - Đỗ Trọng Khánh`
