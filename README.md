@@ -98,7 +98,7 @@
   - VGG có 2 phiên bản **VGG16 (16 layer)** và **VGG19 (19 layer)**, sử dụng **filters size 3x3**.
   - Thay vì sử dụng kernel 7x7 ở mô hình ZFNet, thì ở VGG sử dụng 3 lớp **conv layer 3x3** thì nó có effcitive receptive field so với lớp 7x7. Ngoài ra nó sẽ giúp tăng tính **non-linearities**
   - Trong VGG ở lớp FC7 featuers thì có tính tổng quát hoá cho nhiều đặc vụ khác (FC7 featuers generalize well to other tasks).
-  - Assignment: [Dùng mô hình để mạng VGG16 để lấy đặc trưng ở lớp FC7 featuers sau đó dùng SVM model để huấn luyện và đánh giá.]()
+  - Assignment: [Dùng mô hình để mạng VGG16 để lấy đặc trưng ở lớp FC7 featuers sau đó dùng SVM model để huấn luyện và đánh giá.](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/e8af5de147a49b5cda346488ad89f49fabb2ae8b/Week_5/VGG16_SVM.ipynb)
  
  ### Week 6: SIFT trong Open CV (Scale-Invariant Feature Transform).
  
