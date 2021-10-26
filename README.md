@@ -112,18 +112,18 @@ Các điểm này kèm theo các mô tả về nó và kèm theo một vecto l�
     + Xác định hướng cho các điểm nổi bật: Mỗi điểm nổi bật sẽ được gán cho một hoặc nhiều hướng dựa trên hướng gradient của ảnh. Mọi phép toán xử lý ở các bước sau này sẽ được thực hiện trên những dữ liệu ảnh mà đã được biến đổi tương đối so với hướng đã gán, kích cỡ và vị trí của mỗi điểm đặc trưng. Nhờ đó, tạo ra một sự bất biến trong các phép xử lý này
     + Mô tả các điểm nổi bật: Các hướng gradient cục bộ được đo trong ảnh có kích cỡ cụ thể nào đó trong vùng lân cận với mỗi điểm đặc trưng. Sau đó, chúng sẽ được biễu diễn thành một dạng mà cho phép mô tả các tầng quan trọng của quá trình bóp méo hình dạng cục bộ và sự thay đổi về độ sáng
   - SIFT trong openCV: 
-    + ```
-    	img = cv2.imread('/content/drive/MyDrive/Học kỳ 5/Nhập môn thị giác máy tính/Image/jurassic.jpg')
-	gray= cv2.cvtColor(img,cv2.COLOR_BGR2GRAY) # Đưa về ảnh xám trước khi dùng SIFT
+    ```
+    img = cv2.imread('/content/drive/MyDrive/Học kỳ 5/Nhập môn thị giác máy tính/Image/jurassic.jpg')
+    gray= cv2.cvtColor(img,cv2.COLOR_BGR2GRAY) # Đưa về ảnh xám trước khi dùng SIFT
 
-	sift = cv2.SIFT() # Khởi tạo đối tượng SIFT, ta có thể truyền các tham số cho nó
-	kp = sift.detect(gray,None) # tìm Keypoint trong ảnh
+    sift = cv2.SIFT() # Khởi tạo đối tượng SIFT, ta có thể truyền các tham số cho nó
+    kp = sift.detect(gray,None) # tìm Keypoint trong ảnh
 
-	img_1=cv2.drawKeypoints(gray,kp) # vẽ các vòng tròn nhỏ trên các vị trí của các Keypoint
+    img_1=cv2.drawKeypoints(gray,kp) # vẽ các vòng tròn nhỏ trên các vị trí của các Keypoint
 
-	img_2=cv2.drawKeypoints(gray,kp,flags=cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS) # Nếu bạn truyền cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS 
-                                                                         # cho nó, nó sẽ vẽ một vòng tròn có kích thước của Keypoint và thậm chí nó sẽ hiển thị hướng của nó
-      ```
+    img_2=cv2.drawKeypoints(gray,kp,flags=cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS) # Nếu bạn truyền cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS 
+                                                                         # cho nó, nó sẽ vẽ một vòng tròn có kích thước của Keypoint và thậm chí nó sẽ hiển thị hướng của nó	
+    ```
     + <img src = "">
 <!-- Footer -->
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`Copyright © 2021 - Đỗ Trọng Khánh`
