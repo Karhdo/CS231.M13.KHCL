@@ -107,5 +107,6 @@
 Các điểm này kèm theo các mô tả về nó và kèm theo một vecto lấy keypoint làm điểm gốc
   - Phương pháp trích chọn điểm đặc trưng cục bộ bất biến SIFT gồm các bước:
     + Dò tìm các điểm cực trị (Scale-space Extrema Detection): Bước đầu tiên sẽ áp dụng hàm DOG(Difference of Guassian) để tìm ra các điểm có khả năng làm điểm đặc trưng tiềm năng. Điểm đặc trưng tiềm năng là điểm có tính chất không thay đổi dưới các phép phóng và xoay ảnh. Ví dụ: một pixel trong ảnh được so sánh với 8 lân cận điểm cũng như 9 pixel ở các tỷ lệ tiếp theo và 9 pixel ở các tỷ lệ trước. Nếu nó là một giá trị cực trị thì nó là một Keypoint. Về cơ bản nó có nghĩa là điểm được thể hiện tốt nhất trong thang đo đó. Được hiển thị trong hình dưới đây:
+    + <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/44cd72ff4af0f915e1f903cb090b2fca24c56572/Image/KeyPoint.png">
 <!-- Footer -->
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`Copyright © 2021 - Đỗ Trọng Khánh`
