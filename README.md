@@ -102,7 +102,10 @@
  
  ### Week 6: SIFT trong Open CV (Scale-Invariant Feature Transform).
  
- - Assignment: [Classification MNIST](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/edf620eaa59576637201e2eb91f73112d5834475/Week_6/Image-Classification-using-SIFT.ipynb) and [Classification Animal Faces.](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/fab302787cac70582d741f99785bbb38f09b5c78/Week_6/SIFT_SVM.ipynb)
-
+  - Assignment: [Classification MNIST](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/edf620eaa59576637201e2eb91f73112d5834475/Week_6/Image-Classification-using-SIFT.ipynb) and [Classification Animal Faces.](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/fab302787cac70582d741f99785bbb38f09b5c78/Week_6/SIFT_SVM.ipynb)
+  - SIFT là một thuật toán tiêu biểu và có hiệu quả khá cao vì dựa theo các cục bộ bất biến trong ảnh. Đặc trưng được trích chọn trong SIFT là các điểm đặc biệt keypoints.
+Các điểm này kèm theo các mô tả về nó và kèm theo một vecto lấy keypoint làm điểm gốc
+  - Phương pháp trích chọn điểm đặc trưng cục bộ bất biến SIFT gồm các bước:
+    + Dò tìm các điểm cực trị (Scale-space Extrema Detection): Bước đầu tiên sẽ áp dụng hàm DOG(Difference of Guassian) để tìm ra các điểm có khả năng làm điểm đặc trưng tiềm năng. Điểm đặc trưng tiềm năng là điểm có tính chất không thay đổi dưới các phép phóng và xoay ảnh. Ví dụ: một pixel trong ảnh được so sánh với 8 lân cận điểm cũng như 9 pixel ở các tỷ lệ tiếp theo và 9 pixel ở các tỷ lệ trước. Nếu nó là một giá trị cực trị thì nó là một Keypoint. Về cơ bản nó có nghĩa là điểm được thể hiện tốt nhất trong thang đo đó. Được hiển thị trong hình dưới đây:
 <!-- Footer -->
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`Copyright © 2021 - Đỗ Trọng Khánh`
