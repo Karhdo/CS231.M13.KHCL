@@ -125,5 +125,6 @@ Các điểm này kèm theo các mô tả về nó và kèm theo một vecto l�
                                                                          # cho nó, nó sẽ vẽ một vòng tròn có kích thước của Keypoint và thậm chí nó sẽ hiển thị hướng của nó	
     ```
     + <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/b8949baaf30524080640a46fee6281cd4bc9a0c5/Image/SIFT_detect.png">
+    + Để tính mô tả sử dụng hàm **kp, des = sift.detectAndCompute(gray,None)** . Hàm này sẽ trực tiếp tìm các keypoint mà không cần các bước trên. Hàm sẽ trả về 2 thông số: kp sẽ là một danh sách các Keypoint và des là một mảng dạng Number_of_keypoints * 128
 <!-- Footer -->
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`Copyright © 2021 - Đỗ Trọng Khánh`
