@@ -80,7 +80,7 @@
     <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/8c823df6487937e52dc3869f83529a5879fb7b9d/Image/Alexnet.png">
     + Số lượng trọng số ở FC layer chiếm số lượng rất lớn tổng số lượng trọng số của mô hình mạng (Nhược điểm 1).
     + Dùng kernel size lớn ảnh hưởng đến việc trích xuất đặc trưng (Nhược điểm 2).
-  - Assignment: [Tính trọng số.](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/e5e953956eff2c196f935a02b2f9f0cf5d2e7a79/Image/Ti%CC%81nh_tro%CC%A3ng_so%CC%82%CC%81.png)
+  - Assignment: [Tính trọng số.](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/e5e953956eff2c196f935a02b2f9f0cf5d2e7a79/Image/Ti%CC%81nh_tro%CC%A3ng_so%CC%82%CC%81.png) and [Dùng mô hình để mạng AlexNet để lấy đặc trưng featuers sau đó dùng SVM model để huấn luyện và đánh giá.](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/1c5072777b0f01eda9c3a3f4cbfdb11b5b16ff68/Week_4/AlexNet_SVM.ipynb)
 
 ### Week 5: Mô hình mạng Neural Network VGGNet.
   - Nhược điểm của mô hình nạng AlexNet:
