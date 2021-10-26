@@ -101,8 +101,6 @@
   - Assignment: [Dùng mô hình để mạng VGG16 để lấy đặc trưng ở lớp FC7 featuers sau đó dùng SVM model để huấn luyện và đánh giá.](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/e8af5de147a49b5cda346488ad89f49fabb2ae8b/Week_5/VGG16_SVM.ipynb)
  
  ### Week 6: SIFT trong Open CV (Scale-Invariant Feature Transform).
- 
-  - Assignment: [Classification MNIST](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/edf620eaa59576637201e2eb91f73112d5834475/Week_6/Image-Classification-using-SIFT.ipynb) and [Classification Animal Faces.](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/fab302787cac70582d741f99785bbb38f09b5c78/Week_6/SIFT_SVM.ipynb)
   - SIFT là một thuật toán tiêu biểu và có hiệu quả khá cao vì dựa theo các cục bộ bất biến trong ảnh. Đặc trưng được trích chọn trong SIFT là các điểm đặc biệt keypoints.
 Các điểm này kèm theo các mô tả về nó và kèm theo một vecto lấy keypoint làm điểm gốc
   - Phương pháp trích chọn điểm đặc trưng cục bộ bất biến SIFT gồm các bước:
@@ -126,5 +124,6 @@ Các điểm này kèm theo các mô tả về nó và kèm theo một vecto l�
     ```
     + <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/b8949baaf30524080640a46fee6281cd4bc9a0c5/Image/SIFT_detect.png">
     + Để tính mô tả sử dụng hàm **kp, des = sift.detectAndCompute(gray,None)** . Hàm này sẽ trực tiếp tìm các keypoint mà không cần các bước trên. Hàm sẽ trả về 2 thông số: kp sẽ là một danh sách các Keypoint và des là một mảng dạng Number_of_keypoints * 128
+  - Assignment: [Classification MNIST](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/edf620eaa59576637201e2eb91f73112d5834475/Week_6/Image-Classification-using-SIFT.ipynb) and [Classification Animal Faces.](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/fab302787cac70582d741f99785bbb38f09b5c78/Week_6/SIFT_SVM.ipynb)
 <!-- Footer -->
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`Copyright © 2021 - Đỗ Trọng Khánh`
