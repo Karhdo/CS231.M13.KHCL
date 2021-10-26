@@ -124,6 +124,6 @@ Các điểm này kèm theo các mô tả về nó và kèm theo một vecto l�
     img_2=cv2.drawKeypoints(gray,kp,flags=cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS) # Nếu bạn truyền cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS 
                                                                          # cho nó, nó sẽ vẽ một vòng tròn có kích thước của Keypoint và thậm chí nó sẽ hiển thị hướng của nó	
     ```
-    + <img src = "">
+    + <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/b8949baaf30524080640a46fee6281cd4bc9a0c5/Image/SIFT_detect.png">
 <!-- Footer -->
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`Copyright © 2021 - Đỗ Trọng Khánh`
