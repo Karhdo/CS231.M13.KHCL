@@ -126,6 +126,8 @@ Các điểm này kèm theo các mô tả về nó và kèm theo một vecto l�
     + Để tính mô tả sử dụng hàm **kp, des = sift.detectAndCompute(gray,None)** . Hàm này sẽ trực tiếp tìm các keypoint mà không cần các bước trên. Hàm sẽ trả về 2 thông số: kp sẽ là một danh sách các Keypoint và des là một mảng dạng Number_of_keypoints * 128
   - Assignment: [Classification MNIST](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/edf620eaa59576637201e2eb91f73112d5834475/Week_6/Image-Classification-using-SIFT.ipynb) and [Classification Animal Faces.](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/68f512693039bfd774fb10e271fd2b42b584f4f1/Week_6/SIFT_SVM.ipynb)
 
-### Week 7 + 8: Báo Cáo Giữa Kì.
+### Week 7: Báo Cáo Giữa Kì.
+
+### Week 8: Mô hình mạng Neural Network GoogleNet.
 <!-- Footer -->
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`Copyright © 2021 - Đỗ Trọng Khánh`
