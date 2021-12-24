@@ -19,7 +19,7 @@
 * **Mã môn học:** CS231
 * **Mã lớp:** CS231.M13.KHCL
 * **Năm học:** HK1 (2021 - 2022)
-* **Giảng viên**: ThS.Lê Minh Hưng
+* **Giảng viên**: TS.Lê Minh Hưng
 
 ## QUÁ TRÌNH
 ### Week 1: OpenCV Tutorial and Face Detection.
