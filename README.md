@@ -144,7 +144,7 @@ Các điểm này kèm theo các mô tả về nó và kèm theo một vecto l�
  ## ĐỒ ÁN CUỐI KÌ
  ### Giới thiệu đề tài
  - Tên đề tài: Garbage Classification
- - File báo cáo: [Final Report]()
+ - File báo cáo: [Final Report](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/f184d613576f724c47bb1ffc13e03652a401320b/Final%20Project/Report_CV.pdf)
  ### Thực nghiệm
  - Folder: [Code](Final%20Project/Code)
 <!-- Footer -->
