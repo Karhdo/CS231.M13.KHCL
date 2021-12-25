@@ -142,7 +142,10 @@ Các điểm này kèm theo các mô tả về nó và kèm theo một vecto l�
   - <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/2891b3a00410d5908bbb851bc091498dbb580b07/Image/GoogleNet.png">
  
  ## ĐỒ ÁN CUỐI KÌ
+ ### Giới thiệu đề tài
  - Tên đề tài: Garbage Classification
  - File báo cáo: [Final Report]()
+ ### Code
+ - Folder: [Code]()
 <!-- Footer -->
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`Copyright © 2021 - Đỗ Trọng Khánh`
