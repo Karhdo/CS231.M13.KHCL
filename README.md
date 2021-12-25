@@ -140,6 +140,9 @@ Các điểm này kèm theo các mô tả về nó và kèm theo một vecto l�
   - Khi tính gradient từ đầu ra đến weight đầu, ta tính loss function sẽ đi qua nhiều change rules khác nhau, việc dùng nhiều change rules sẽ dẫn đến hiện tượng gradient vanishing(mất mát đạo hàm) vì thế cần bổ sung thêm các đầu ra. Khi thiết kế các loss function ngay chỗ đó, thì tại thời điểm nào đó vẫn có cập nhật đạo hàm về từ hướng này xuống, nó bổ sung đạo hàm từ các hướng kia lại với nhau thì sẽ giảm hiện tượng gradient vanishing(mất mát đạo hàm)
   - Gradient vanishing: Là vấn đề xảy ra khi huấn luyện các mạng nơ ron nhiều lớp. Khi huấn luyện, giá trị đạo hàm là thông tin phản hồi của quá trình lan truyền ngược. Giá trị này trở nên vô cùng nhỏ tại các lớp nơ ron đầu tiên khiến cho việc cập nhật trọng số mạng không thể xảy ra
   - <img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/2891b3a00410d5908bbb851bc091498dbb580b07/Image/GoogleNet.png">
-
+ 
+ ## ĐỒ ÁN CUỐI KÌ
+ - Tên đề tài: Garbage Classification
+ - File báo cáo: [Final Report]()
 <!-- Footer -->
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`Copyright © 2021 - Đỗ Trọng Khánh`
