@@ -127,7 +127,7 @@ Các điểm này kèm theo các mô tả về nó và kèm theo một vecto l�
   - Assignment: [Classification MNIST](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/edf620eaa59576637201e2eb91f73112d5834475/Week_6/Image-Classification-using-SIFT.ipynb) and [Classification Animal Faces.](https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/68f512693039bfd774fb10e271fd2b42b584f4f1/Week_6/SIFT_SVM.ipynb)
 
 ### Week 7: Báo Cáo Giữa Kì - Classification Of Face Animal
-<img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/c4b9e20d5485454b3da47fc0293d69c5b4f63980/Image/InceptionModule.png">
+<img src = "https://github.com/trong-khanh-1109/CS231.M13.KHCL/blob/996e14111f2bfb8ab095d1b3657a6f60b5a7f610/Image/report_cv.png">
 
 ### Week 8: Mô hình mạng Neural Network GoogleNet.
   - GoogleNet được tạo thành từ các inception module rất hiệu quả.
