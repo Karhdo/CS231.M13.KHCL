@@ -146,6 +146,6 @@ Các điểm này kèm theo các mô tả về nó và kèm theo một vecto l�
  - Tên đề tài: Garbage Classification
  - File báo cáo: [Final Report]()
  ### Thực nghiệm
- - Folder: [Code]()
+ - Folder: [Code](Final Project/Code)
 <!-- Footer -->
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`Copyright © 2021 - Đỗ Trọng Khánh`
